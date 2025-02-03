@@ -25,7 +25,7 @@ Make sure that joining is enabled, otherwise new devices cannot join the network
 
 ### 2. Creating the external definition
 
-When pairing an unsupported device with Zigbee2MQTT, it will attempt to discover features supported by this device. To check what has already been discovered, navigate to the `Exposes` tab of the device in frontend. See if the exposed features work by checking if values are reported and/or states are controllable (in case of e.g. a light).
+When pairing an unsupported device with Zigbee2MQTT, it will attempt to discover features supported by this device. To check what has already been discovered, navigate to the `Exposes` tab of the device in [frontend](https://www.zigbee2mqtt.io/guide/configuration/frontend.html). See if the exposed features work by checking if values are reported and/or states are controllable (in case of e.g. a light).
 Note that feature discovery is still WIP, not all features may be discovered, some may not be discoverable at all due to a non-standard implementation on the device (commonly the case for Tuya devices).
 
 Next generate the external definition by navigating to the `Dev console` tab of the device and press `Generate external definition`.
